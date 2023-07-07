@@ -1,0 +1,104 @@
+body {
+    font-family: 'Martian Mono', monospace, sans-serif;
+    background-color: rgb(12, 10, 10);
+}
+
+.st1 {
+    color: aqua;
+    font-family: 'Martian Mono', monospace, sans-serif;
+}
+
+.st2 {
+    color: bisque;
+    font-family: 'Martian Mono', monospace, sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 0px;
+    display:flex;
+}
+
+#p1 {
+    margin: 0px;
+    text-decoration-color: aqua;
+}
+
+#underline {
+    border: 1px dashed;
+    border-color: aqua;
+    width: 270px;
+}
+
+#box {
+    border: 0px;
+    height: 70px;
+    width:auto;
+    background-color: rgb(12, 10, 10);
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    box-shadow: -10px 10px 20px rgb(12, 10, 10);
+     }
+
+.fa-discord {
+    color: aqua;
+}
+
+.fa-discord:hover {
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+#discord {
+    padding: 5px;
+
+}
+
+.fa-facebook {
+    color: aqua;
+}
+
+.fa-facebook:hover {
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+#facebook {
+    padding: 5px;
+}
+
+.fa-youtube {
+    color: aqua;
+}
+
+.fa-youtube:hover {
+    animation: bounce 1.5s ease-in-out infinite;
+}
+
+#youtube {
+    padding: 5px;
+}
+
+footer {
+    border: 0px;
+    position: absolute;
+    left: 50%;
+    color: aqua;
+    font-family: 'Martian Mono', monospace, sans-serif;
+    text-align: center;
+}
+
+
+@keyframes bounce {
+    0%,
+    20%,
+    60%,
+    100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    80% {
+        transform: translateY(-5px);
+    }
+}
